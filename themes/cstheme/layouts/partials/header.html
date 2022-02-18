@@ -1,0 +1,23 @@
+<nav class="d-flex d-md-none navbar sticky-md-top fixed-top bg-primary px-3">
+    <a class="navbar-brand" href="/">
+        <img src="/logosmall.svg" class="rounded-3" alt="" width="40" height="40" />
+    </a>
+    <button class="btn bg-secondary hover-scale text-primary fs-4 rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+		<i class="bi bi-list"></i>
+	</button>
+</nav>
+
+<div class="offcanvas offcanvas-end bg-primary px-2 d-flex flex-column align-items-start justify-content-between" id="demo">
+    <div class="container py-3 overflow-auto">
+        <div class="offcanvas-header">
+            <a class="w-100 h-auto" style="outline: unset" href="/">
+                <img src="/logosmall.svg" width="50" height="50" class="img-fluid rounded-5" />
+            </a>
+            <button class="btn bg-secondary hover-scale text-primary fs-4 rounded-circle" type="button" data-bs-dismiss="offcanvas">
+				<i class="bi bi-x-lg"></i>
+			</button>
+        </div>
+        {{- partial "menu.html" . -}}
+    </div>
+    {{- partial "footer.html" -}}
+</div>

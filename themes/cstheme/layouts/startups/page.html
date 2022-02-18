@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section id="main">
+    {{- partial "breadcrumb.html" -}}
+    <div class="position-relative w-100 h-auto p-0 mb-5">
+        {{if .Params.Cover}}
+        <img src="{{ .Params.Cover }}" style="max-height: 315px; object-fit: cover" class="img-fluid w-100 rounded-5 shadow-sm" /> {{else}}
+        <div class="w-100 rounded-5 shadow-sm" style="max-height: 315px"></div>
+        {{end}}
+        <div class="position-absolute" style="bottom: 10%; left: 0%; width: 15%; height: 15%">
+            <!-- Start If -->
+            {{if .Params.Logo}}
+            <img src="{{.Params.Logo}}" class="img-fluid rounded-circle shadow-sm border border-5" style="border-color: var(--rojo-blanco) !important" />
+            <!-- Else -->
+            {{else}}
+            <span class="text-mute text-light"> {{.Name}} </span>
+            <!-- End If -->
+            {{end}}
+        </div>
+    </div>
+    <h1 id="title" class="pt-2">{{ .Title }}</h1>
+    <div>
+        <article id="content">{{ .Content }}</article>
+    </div>
+</section>
+{{ end }}

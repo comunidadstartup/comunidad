@@ -1,0 +1,32 @@
+<!-- Start Current -->
+{{ $currentPage := .}}
+<!--  Start Range -->
+{{ range .Site.Menus.main}}
+<!-- Start If -->
+{{ if .HasChildren}}
+<div class="list-group">
+    <a class="sidebar-item rounded-3 w-100 p-3 text-decoration-none" id="{{ .Name }}-parent" data-bs-toggle="collapse" data-bs-target="#{{ .Name }}-btn" aria-expanded="false" aria-controls="flush-collapseOne">
+        <span>{{ .Name }}</span>
+    </a>
+    <div id="{{ .Name}}-btn" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#{{ .Name }}-btn">
+        <div class="list-group px-3">
+            <!-- Start Range -->
+            {{ range .Children}}
+            <a href="{{ .URL }}" class="text-decoration-none sidebar-item rounded-3 w-100 p-3">
+                <span>{{ .Name }}</span>
+            </a>
+            <!-- End Range -->
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ else }}
+<div class="list-group">
+    <a href="{{ .URL }}" class="text-decoration-none sidebar-item rounded-3 w-100 p-3">
+        <span>{{ .Name }}</span>
+    </a>
+</div>
+<!--  End If -->
+{{ end }}
+<!--  End Range -->
+{{ end }}
