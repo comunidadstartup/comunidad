@@ -2,7 +2,13 @@
 
 https://comunidadstartup.github.io/comunidad/
 
-## Contenido
+## Instrucción de uso
+
+1. Clonar el repositorio
+2. Crear Branch para añadir o editar contenido
+3. Ejecutar Commit y hacer Pull Request al Branch Main
+
+## Creación de Contenido
 
 ### Cofundar
 
