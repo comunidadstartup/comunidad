@@ -14,13 +14,13 @@ https://comunidadstartup.github.io/comunidad/
 
 Añadir startup al canal de Cofundación
 
-> hugo new --kind cofundar comunidad/cofundar/<file-name>.md
+> hugo new --kind cofundar comunidad/cofundar/[file-name].md
   
 ### Startup
   
 Añadir startup al canal de Startups
   
-> hugo new --kind startup comunidad/startup/<startup-name>.md
+> hugo new --kind startup comunidad/startup/[startup-name].md
   
 ### Empleos
   
