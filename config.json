@@ -1,5 +1,5 @@
 {
-    "baseURL": "http://localhost",
+    "baseURL": "https://comunidadstartup.github.io/comunidad/",
     "title": "Comunidad Startup",
     "theme": "cstheme",
     "enableGitInfo": true,
