@@ -1,5 +1,5 @@
 ---
-title: "Fundamento Uno"
+title: "Title"
 
 type: default
 layout: page

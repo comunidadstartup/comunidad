@@ -1,7 +1,8 @@
 ---
-title: Curso 1
+title: Manifesto
+
 type: recursos
 layout: page
 ---
 
-Lorem ipsu dolor
+Lorem ipsum dolor
