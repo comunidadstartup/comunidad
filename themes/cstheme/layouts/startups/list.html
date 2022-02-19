@@ -6,7 +6,7 @@
         <div class="col-lg-2 col-3 p-3">
             <!-- If -->
             {{ if .Params.Logo}}
-            <img src="{{ .Params.Logo }}" class="img-fluid rounded-circle" alt="Image" />
+            <img src="{{.Site.BaseURL}}{{ .Params.Logo }}" class="img-fluid rounded-circle" alt="Image" />
             <!-- Else -->
             {{else}}
             <span>{{.Name}}</span>
@@ -17,6 +17,13 @@
             <div class="card-body text-color d-flex flex-column align-items-start justify-content-start">
                 <h3 class="fw-bold">{{ .Title }}</h3>
                 <p>{{ .Summary }}</p>
+                <div class="d-flex flex-row align-items-center justify-content-start w-100 h-auto">
+                    {{ range .Params.Tags }}
+                    <h5 class="me-2">
+                        <span class="badge bg-primary">{{ . }}</span>
+                    </h5>
+                    {{end}}
+                </div>
             </div>
         </div>
     </div>
