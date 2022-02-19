@@ -1,0 +1,22 @@
+{{ define "main" }}
+<!-- Range Comunidad -->
+
+<h1 class="mb-3">Reciente</h1>
+
+<div class="album">
+    <div class="container p-0">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {{ with .GetPage "/inicio" }}
+            <!--  -->
+            {{range .Pages}}
+            <!--  -->
+            {{ partial "inicio/card.html" . }}
+            <!--  -->
+            {{end}}
+            <!--  -->
+            {{end}}
+        </div>
+    </div>
+</div>
+<!--  -->
+{{end}}
