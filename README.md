@@ -8,6 +8,12 @@ https://comunidadstartup.github.io/comunidad/
 2. Crear Branch para añadir o editar contenido
 3. Ejecutar Commit y hacer Pull Request al Branch Main
 
+## Formato de Texto
+
+Para añadir estilo al texto ver el siguiente documento.
+
+https://www.markdownguide.org/cheat-sheet/
+
 ## Creación de Contenido
 
 ### Cofundar
