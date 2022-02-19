@@ -2,6 +2,7 @@
     "baseURL": "http://localhost",
     "title": "Comunidad Startup",
     "theme": "cstheme",
+    "enableGitInfo": true,
     "menu": {
         "main": [{
                 "identifier": "Comunidad",
@@ -21,7 +22,7 @@
                 "identifier": "Metodología",
                 "title": "Metodología",
                 "name": "Metodología",
-                "url": "/metodología/",
+                "url": "/metodologia/",
                 "weight": 1
             },
             {
@@ -53,7 +54,7 @@
                 "identifier": "Pasantías",
                 "title": "Pasantías",
                 "name": "Pasantías",
-                "url": "/comunidad/pasantías/",
+                "url": "/comunidad/pasantias/",
                 "weight": 2
             },
             {

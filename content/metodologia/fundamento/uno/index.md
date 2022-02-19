@@ -1,5 +1,5 @@
 ---
-title: Frases Clave
+title: Fundamento Uno
 type: recursos
 layout: page
 ---
