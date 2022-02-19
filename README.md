@@ -1,4 +1,4 @@
-# comunidad
+# Comunidad
 
 https://comunidadstartup.github.io/comunidad/
 
