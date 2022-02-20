@@ -1,5 +1,5 @@
 {
-    "baseURL": "https://portal.comunidadstartups.com",
+    "baseURL": "https://portal.comunidadstartups.com/",
     "title": "Comunidad Startup",
     "theme": "cstheme",
     "enableGitInfo": true,
