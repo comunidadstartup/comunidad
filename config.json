@@ -1,8 +1,9 @@
 {
-    "baseURL": "https://comunidadstartup.github.io/comunidad/",
+    "baseURL": "https://portal.comunidadstartups.com",
     "title": "Comunidad Startup",
     "theme": "cstheme",
     "enableGitInfo": true,
+    "defaultContentLanguage": "es",
     "menu": {
         "main": [{
                 "identifier": "Comunidad",
@@ -23,6 +24,13 @@
                 "title": "Metodología",
                 "name": "Metodología",
                 "url": "/metodologia/",
+                "weight": 1
+            },
+            {
+                "identifier": "Blogs",
+                "title": "Blogs",
+                "name": "Blogs",
+                "url": "/blog/",
                 "weight": 1
             },
             {
@@ -90,5 +98,81 @@
                 "weight": 2
             }
         ]
+    },
+    "markup": {
+        "asciidocExt": {
+            "attributes": {},
+            "backend": "html5",
+            "extensions": [],
+            "failureLevel": "fatal",
+            "noHeaderOrFooter": true,
+            "preserveTOC": false,
+            "safeMode": "unsafe",
+            "sectionNumbers": false,
+            "trace": false,
+            "verbose": false,
+            "workingFolderCurrent": false
+        },
+        "blackFriday": {
+            "angledQuotes": false,
+            "extensions": null,
+            "extensionsMask": null,
+            "footnoteAnchorPrefix": "",
+            "footnoteReturnLinkContents": "",
+            "fractions": true,
+            "hrefTargetBlank": false,
+            "latexDashes": true,
+            "nofollowLinks": false,
+            "noreferrerLinks": false,
+            "plainIDAnchors": true,
+            "skipHTML": false,
+            "smartDashes": true,
+            "smartypants": true,
+            "smartypantsQuotesNBSP": false,
+            "taskLists": true
+        },
+        "defaultMarkdownHandler": "goldmark",
+        "goldmark": {
+            "extensions": {
+                "definitionList": true,
+                "footnote": true,
+                "linkify": true,
+                "strikethrough": true,
+                "table": true,
+                "taskList": true,
+                "typographer": true
+            },
+            "parser": {
+                "attribute": {
+                    "block": false,
+                    "title": true
+                },
+                "autoHeadingID": true,
+                "autoHeadingIDType": "github"
+            },
+            "renderer": {
+                "hardWraps": false,
+                "unsafe": false,
+                "xhtml": false
+            }
+        },
+        "highlight": {
+            "anchorLineNos": false,
+            "codeFences": true,
+            "guessSyntax": false,
+            "hl_Lines": "",
+            "lineAnchors": "",
+            "lineNoStart": 1,
+            "lineNos": false,
+            "lineNumbersInTable": true,
+            "noClasses": true,
+            "style": "monokai",
+            "tabWidth": 4
+        },
+        "tableOfContents": {
+            "endLevel": 3,
+            "ordered": false,
+            "startLevel": 2
+        }
     }
 }
