@@ -14,15 +14,22 @@
             <span class="text-mute text-light"> {{.Name}} </span>
             <!-- End If -->
             {{end}}
+            <!--  -->
         </div>
     </div>
-    <div class="d-flex flex-row align-items-center justify-content-start w-100 h-auto pt-3">
+    <div class="d-flex flex-row align-items-center justify-content-start w-100 h-auto pt-4">
         {{ range .Params.Tags }}
         <h5 class="me-2">
-            <span class="badge bg-primary">{{ . }}</span>
+            <span class="badge bg-primary shadow-sm">{{ . }}</span>
         </h5>
         {{end}}
     </div>
+    <ul class="mb-3 p-0 d-flex flex-row align-items-center justify-content-start">
+        {{ range .Params.enlaces}}
+        <li class="text-capitalize hover-scale d-flex align-items-center justify-content-start py-1 px-2 bg-primary me-3 text-color rounded-3"><a class="text-decoration-none" href="{{.value}}">{{.key}}</a></li>
+        <!--  -->
+        {{end}}
+    </ul>
     <h1 id="title">{{ .Title }}</h1>
     <div>
         <article id="content">{{ .Content }}</article>

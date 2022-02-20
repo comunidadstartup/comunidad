@@ -9,8 +9,12 @@
 
             <div class="card-body text-color">
                 <h3>{{.Title}}</h3>
-                <p class="card-text">{{ .Summary }}</p>
+                <p class="card-text">{{ .Description }}</p>
             </div>
-        </div>
-    </a>
+            <div class="card-footer text-color">
+                <small>{{.PublishDate.Format "Mon Jan 2, 2006"}}</small
+				>
+			</div>
+		</div>
+	</a>
 </div>
