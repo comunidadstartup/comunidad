@@ -31,3 +31,4 @@ jobs:
           github_token: ${{ secrets.MASTER_TOKEN }}
           publish_dir: ./public
           publish_branch: source
+          cname: portal.comunidadstartups.com
