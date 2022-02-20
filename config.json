@@ -66,14 +66,6 @@
                 "weight": 2
             },
             {
-                "parent": "Recursos",
-                "identifier": "Git",
-                "title": "Git",
-                "name": "Git",
-                "url": "/recursos/git/",
-                "weight": 2
-            },
-            {
                 "parent": "Metodología",
                 "identifier": "Fundamento",
                 "title": "Fundamento",
