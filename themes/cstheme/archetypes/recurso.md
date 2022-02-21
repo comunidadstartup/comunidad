@@ -1,12 +1,9 @@
 ---
-title: "Title"
+title:
+description:
 
 type: recursos
 layout: page
 ---
-
-** Insertar Resumen **
-
-<!-- More -->
 
 ** Insertar Contenido **

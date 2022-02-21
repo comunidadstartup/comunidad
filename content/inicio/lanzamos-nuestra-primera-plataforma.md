@@ -2,7 +2,7 @@
 title: Lanzamos nuestra primera plataforma
 description: Primera iteración de uno de nuestros servicios para impulsar el crecimiento del emprendedurismo en Costa Rica
 author: Andrés Tamayo
-img: "/ogimage.png"
+# img: "/ogimage.png"
 Date: 2022-02-20T05:13:22.104Z
 
 type: inicio

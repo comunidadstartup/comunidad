@@ -1,13 +1,10 @@
 ---
-title: "Title"
-img: "Image"
+title:
+img:
+description:
 
 type: inicio
 layout: page
 ---
-
-** Insertar Resumen **
-
-<!-- More -->
 
 ** Insertar Contenido **

@@ -42,6 +42,22 @@
                 "weight": 2
             },
             {
+                "parent": "Recursos",
+                "identifier": "Herramientas",
+                "title": "Herramientas",
+                "name": "Herramientas",
+                "url": "/recursos/herramientas/",
+                "weight": 2
+            },
+            {
+                "parent": "Recursos",
+                "identifier": "Emprendedurismo",
+                "title": "Emprendedurismo",
+                "name": "Emprendedurismo",
+                "url": "/recursos/emprendedurismo/",
+                "weight": 2
+            },
+            {
                 "parent": "Comunidad",
                 "identifier": "Cofundar",
                 "title": "Cofundar",
