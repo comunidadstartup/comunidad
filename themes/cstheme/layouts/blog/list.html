@@ -3,14 +3,14 @@
 {{ range .Pages.ByPublishDate.Reverse }}
 <!--  -->
 <a href="{{.RelPermalink}}" class="text-decoration-none">
-    <div class="d-flex flex-row w-100 hover-scale">
-        <img style="object-fit: cover" src="{{.Site.BaseURL}}{{ .Params.Image }}" class="col-lg-2 col-4 bg-sombra-debil rounded-start" alt="{{.Params.Alt}}" />
-        <div class="card rounded-0 rounded-end bg-sombra-debil w-100">
+    <div class="row hover-scale border rounded-3">
+        <img style="object-fit: cover" src="{{.Site.BaseURL}}{{ .Params.Image }}" class="img-fluid col-sm-3 p-0 bg-sombra-debil rounded-start" alt="{{.Params.Alt}}" />
+        <div class="card col-sm p-0 border-0 rounded-0 rounded-end bg-sombra-debil">
             <div class="card-body text-color">
                 <h5 class="card-title">{{.Title}}</h5>
                 <p class="card-text">{{.Description}}</p>
             </div>
-            <div class="card-footer text-color d-flex flex-row justify-content-between">
+            <div class="card-footer text-color d-flex justify-content-between">
                 <small> {{.PublishDate.Format "Monday, January 2, 2006"}} </small>
                 <small> {{.Params.Author}} </small>
             </div>

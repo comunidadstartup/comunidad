@@ -4,10 +4,10 @@
 
 <body>
     {{- partial "header.html" . -}}
-    <main class="container-fluid h-screen pt-5 pt-md-0">
+    <main class="container-lg h-screen pt-5 pt-md-0">
         <section class="row h-100">
-            <div class="d-md-flex d-none col-md-3 position-relative align-items-stretch bg-primary">
-                <div class="position-fixed start-0 top-0 col-md-3">
+            <div class="d-md-flex sidebar-height d-none p-0 col-md-3 position-relative align-items-stretch">
+                <div class="position-fixed col-md-3 sidebar-max-width">
                     {{- partial "sidebar.html" . -}}
                 </div>
             </div>

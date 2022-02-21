@@ -5,7 +5,7 @@
         <img src="{{.Site.BaseURL}}{{ .Params.Cover }}" style="max-height: 315px; object-fit: cover" class="img-fluid w-100 rounded-5 shadow-sm" /> {{else}}
         <div class="w-100 rounded-5 shadow-sm" style="max-height: 315px"></div>
         {{end}}
-        <div class="position-absolute" style="bottom: 10%; left: 0%; width: 15%; height: 15%">
+        <div class="position-absolute startup-page-logo">
             <!-- Start If -->
             {{if .Params.Logo}}
             <img src="{{.Site.BaseURL}}{{.Params.Logo}}" class="img-fluid rounded-circle shadow-sm border border-5" style="border-color: var(--rojo-blanco) !important" />
