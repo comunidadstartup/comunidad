@@ -26,7 +26,11 @@
     </div>
     <ul class="mb-3 p-0 d-flex flex-row align-items-center justify-content-start">
         {{ range .Params.enlaces}}
-        <li class="text-capitalize hover-scale d-flex align-items-center justify-content-start py-1 px-2 bg-primary me-3 text-color rounded-3"><a class="text-decoration-none" href="{{.value}}">{{.key}}</a></li>
+        <li class="text-capitalize hover-scale d-flex align-items-center justify-content-start py-1 px-2 bg-primary me-3 rounded-3">
+            <!--  -->
+            <a class="text-decoration-none text-light" href="{{.value}}">{{.key}}</a>
+            <!--  -->
+        </li>
         <!--  -->
         {{end}}
     </ul>
