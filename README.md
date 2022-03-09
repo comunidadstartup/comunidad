@@ -26,7 +26,7 @@ Añadir startup al canal de Cofundación
   
 Añadir startup al canal de Startups
   
-> hugo new --kind startup comunidad/startup/[startup-name].md
+> hugo new --kind startup comunidad/startups/[startup-name].md
   
 ### Empleos
   
