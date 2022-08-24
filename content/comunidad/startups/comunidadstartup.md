@@ -1,5 +1,6 @@
 ---
 title: Comunidad Startup
+description: Comunidad Startup es una startup para startups. Una que fracasa si vos fracasás, y gana si vos ganás, pero sobre todo, una startup que quiere ganar
 tags: ["Comunidad", "Incubadora", "Educación"]
 enlaces: [
     {key: "web", value: "www.comunidadstartups.com"},
@@ -13,10 +14,6 @@ layout: page
 logo: "/logosmall.svg"
 cover: "/ogimage.png"
 ---
-
-Comunidad Startup es una startup para startups. Una que fracasa si vos fracasás, y gana si vos ganás, pero sobre todo, una startup que quiere ganar
-
-<!--more-->
 
 ## Problema
 

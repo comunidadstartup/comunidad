@@ -2,13 +2,15 @@
 <section id="main">
     <div class="position-relative w-100 h-auto p-0 mb-5">
         {{if .Params.Cover}}
-        <img src="{{.Site.BaseURL}}{{ .Params.Cover }}" style="max-height: 315px; object-fit: cover" class="img-fluid w-100 rounded-5 shadow-sm" /> {{else}}
+        <img src="{{.Site.BaseURL}}{{ .Params.Cover }}" style="max-height: 315px; object-fit: cover"
+            class="img-fluid w-100 rounded-5 shadow-sm" /> {{else}}
         <div class="w-100 rounded-5 shadow-sm" style="max-height: 315px"></div>
         {{end}}
         <div class="position-absolute startup-page-logo">
             <!-- Start If -->
             {{if .Params.Logo}}
-            <img src="{{.Site.BaseURL}}{{.Params.Logo}}" class="img-fluid rounded-circle shadow-sm border border-5" style="border-color: var(--rojo-blanco) !important" />
+            <img src="{{.Site.BaseURL}}{{.Params.Logo}}"
+                class="img-fluid rounded-circle shadow-sm border border-5 border-white" />
             <!-- Else -->
             {{else}}
             <span class="text-mute text-light"> {{.Name}} </span>
@@ -26,7 +28,8 @@
     </div>
     <ul class="mb-3 p-0 d-flex flex-row align-items-center justify-content-start">
         {{ range .Params.enlaces}}
-        <li class="text-capitalize hover-scale d-flex align-items-center justify-content-start py-1 px-2 bg-primary me-3 rounded-3">
+        <li
+            class="text-capitalize hover-scale d-flex align-items-center justify-content-start py-1 px-2 bg-primary me-3 rounded-3">
             <!--  -->
             <a class="text-decoration-none text-light" href="{{.value}}">{{.key}}</a>
             <!--  -->
@@ -37,6 +40,27 @@
     <h1 id="title">{{ .Title }}</h1>
     <div>
         <article id="content">{{ .Content }}</article>
+        {{if .Params.members}}
+        <h3 class="mb-4">
+            Miembros
+        </h3>
+        <hr class="w-100">
+        {{ range .Params.members}}
+        <div class="d-flex flex-column align-items-start justify-content-center w-100 h-auto py-2 px-4 m-0">
+            <h4 class="fw-bold">
+                {{.name}}
+            </h4>
+            <ul class="d-flex flex-row w-100 h-auto list-unstyled mb-2">
+                {{ range .tags}}
+                <li class="p-2 rounded-3 bg-primary me-2"> {{.}} </li>
+                {{ end }}
+            </ul>
+            <p>
+                {{.description}}
+            </p>
+        </div>
+        {{end}}
+        {{end}}
     </div>
 </section>
 {{ end }}

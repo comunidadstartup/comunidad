@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metodología on Comunidad Startup</title>
+    <link>https://portal.comunidadstartups.com/metodologia/</link>
+    <description>Recent content in Metodología on Comunidad Startup</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://portal.comunidadstartups.com/metodologia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frases Clave</title>
+      <link>https://portal.comunidadstartups.com/metodologia/frases-clave/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://portal.comunidadstartups.com/metodologia/frases-clave/</guid>
+      <description>Concepto  No pretendemos ser modelo ni referencia de lo que se puede lograr, sino pretendemos siempre buscar construir un mejor modelo a seguir.
+ Valor  Nuestro valor más grande lo aporta la comunidad.
+  Aquí se aprende no de lo que enseñamos, sino de lo que compartimos.
+ Metodología  No enseñamos el qué ni el cómo, sino el con qué.
+  Nadie te puede enseñar como lograr lo que aspiras, pero te puede instruir con lo necesario para que logres entender cómo.</description>
+    </item>
+    
+    <item>
+      <title>Manifesto</title>
+      <link>https://portal.comunidadstartups.com/metodologia/manifesto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://portal.comunidadstartups.com/metodologia/manifesto/</guid>
+      <description>La cultura de ambición que existe en países como EEUU no la hay en LATAM. En EEUU el tiempo es oro, y en LATAM es más felicidad. En ningún lugar se escuchará más el dicho “el dinero no compra la felicidad” y es evidente con la conformidad laboral. Por aspectos tan básicos como estos, los modelo de innovación actual no se pueden implantar en LATAM y en otras culturas allegadas como el Mediterráneo.</description>
+    </item>
+    
+  </channel>
+</rss>

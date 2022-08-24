@@ -1,5 +1,5 @@
 ---
 title: Cofundar
-type: startups
+type: vacantes
 layout: list
 ---

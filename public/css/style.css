@@ -1,0 +1,337 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #424242;
+    --bs-primary: #ff7e79;
+    --bs-secondary: #fdfff8;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #424242;
+    --bs-primary-rgb: 255, 126, 121;
+    --bs-secondary-rgb: 253, 255, 248;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 66, 66, 66;
+    --bs-body-bg-rgb: 253, 255, 248;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient( 180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #797979;
+    --bs-body-bg: #fdfff8;
+    --heading-color: #424242;
+    --body-color: #797979;
+    --rojo-blanco: #ff7e79;
+    --sombra-debil: rgba(0, 0, 0, 0.05);
+    --negro-debil: rgba(0, 0, 0, 0.2);
+    --rojo-debil: rgba(255, 126, 121, 0.5);
+}
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --bs-blue: #0d6efd;
+        --bs-indigo: #6610f2;
+        --bs-purple: #6f42c1;
+        --bs-pink: #d63384;
+        --bs-red: #dc3545;
+        --bs-orange: #fd7e14;
+        --bs-yellow: #ffc107;
+        --bs-green: #198754;
+        --bs-teal: #20c997;
+        --bs-cyan: #0dcaf0;
+        --bs-white: #fff;
+        --bs-gray: #6c757d;
+        --bs-gray-dark: #343a40;
+        --bs-gray-100: #f8f9fa;
+        --bs-gray-200: #e9ecef;
+        --bs-gray-300: #dee2e6;
+        --bs-gray-400: #ced4da;
+        --bs-gray-500: #adb5bd;
+        --bs-gray-600: #6c757d;
+        --bs-gray-700: #495057;
+        --bs-gray-800: #343a40;
+        --bs-gray-900: #424242;
+        --bs-primary: #5a1b17;
+        --bs-secondary: #fdfff8;
+        --bs-success: #198754;
+        --bs-info: #0dcaf0;
+        --bs-warning: #ffc107;
+        --bs-danger: #dc3545;
+        --bs-light: #f8f9fa;
+        --bs-dark: #424242;
+        --bs-primary-rgb: 90, 27, 23;
+        --bs-secondary-rgb: 253, 255, 248;
+        --bs-success-rgb: 25, 135, 84;
+        --bs-info-rgb: 13, 202, 240;
+        --bs-warning-rgb: 255, 193, 7;
+        --bs-danger-rgb: 220, 53, 69;
+        --bs-light-rgb: 248, 249, 250;
+        --bs-dark-rgb: 33, 37, 41;
+        --bs-white-rgb: 255, 255, 255;
+        --bs-black-rgb: 0, 0, 0;
+        --bs-body-color-rgb: 33, 37, 41;
+        --bs-body-bg-rgb: 255, 255, 255;
+        --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --bs-gradient: linear-gradient( 180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+        --bs-body-font-family: var(--bs-font-sans-serif);
+        --bs-body-font-size: 1rem;
+        --bs-body-font-weight: 400;
+        --bs-body-line-height: 1.5;
+        --bs-body-color: #fff;
+        --bs-body-bg: #2f2f2e;
+        --heading-color: #fff;
+        --body-color: #fff;
+        --sombra-debil: rgba(255, 255, 255, 0.2);
+        --rojo-blanco: #fff;
+        --negro-debil: rgba(0, 0, 0, 0.2);
+        --rojo-debil: rgba(90, 27, 23, 0.2);
+    }
+}
+
+html,
+body {
+    height: 100%;
+    background-color: var(--bs-body-bg);
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: var(--heading-color);
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.bg-gray-light {
+    background-color: var(--sombra-debil);
+}
+
+.bg-sombra-debil {
+    background-color: var(--sombra-debil);
+}
+
+.bg-rojo-debil {
+    background-color: var(--rojo-debil);
+}
+
+.rounded-5 {
+    border-radius: 0.625rem;
+}
+
+.sidebar-item.active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-item:last-of-type {
+    margin: unset;
+}
+
+.sidebar-item:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-item>span {
+    color: #fff;
+}
+
+.hover-scale {
+    transition: all 0.2s ease;
+    box-shadow: 0px 1px 3px var(--negro-debil);
+}
+
+.hover-scale:hover {
+    transform: scale(1.02, 1.02);
+    box-shadow: 0px 2px 6px var(--negro-debil);
+}
+
+.startup-page-logo {
+    width: 25%;
+    bottom: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-color h1,
+.text-color h2,
+.text-color h3,
+.text-color h4,
+.text-color h5,
+.text-color h6 {
+    color: var(--heading-color);
+}
+
+.text-color p,
+.text-color small,
+.text-color a {
+    color: var(--body-color);
+}
+
+#content {
+    position: relative;
+    width: auto;
+}
+
+#content pre {
+    white-space: normal;
+    background-color: var(--sombra-debil);
+    padding: 1rem;
+    border-radius: 0.3125rem;
+}
+
+#content blockquote>p {
+    margin: unset;
+    padding: unset;
+}
+
+#content blockquote {
+    border-left: 5px solid rgba(var(--bs-primary-rgb), 0.7);
+    padding: 0.5rem 1rem;
+    margin: 0px 1rem 1rem;
+    background-color: var(--sombra-debil);
+}
+
+#content h1 {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--bs-gray-300);
+    margin-bottom: 2rem;
+}
+
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6,
+#content p,
+#content pre {
+    margin: 2rem 1rem;
+}
+
+#content p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+#content ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+#content ul>li>input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    margin-right: .5rem;
+}
+
+#context>ul>li>input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+}
+
+#context>ul>li>input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+#context>ul>li>input[type="checkbox"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+}
+
+#context>ul>li>input[type="checkbox"]:disabled {
+    --form-control-color: var(--form-control-disabled);
+    color: var(--form-control-disabled);
+    cursor: not-allowed;
+}
+
+.sidebar-height {
+    height: 100vh;
+}
+
+.sidebar-max-width {
+    max-width: auto;
+}
+
+@media (min-width: 992px) {
+    .sidebar-height {
+        border-radius: 10px;
+        top: 20px;
+        height: calc(100vh - 40px);
+    }
+    .sidebar-max-width {
+        max-width: 240px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sidebar-max-width {
+        max-width: 285px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sidebar-max-width {
+        max-width: 330px;
+    }
+}

@@ -2,13 +2,15 @@
 <section id="main">
     <div class="position-relative w-100 h-auto p-0">
         {{if .Params.Cover}}
-        <img src="{{.Site.BaseURL}}{{ .Params.Cover }}" style="max-height: 315px; object-fit: cover" class="img-fluid w-100 rounded-5 shadow-sm" /> {{else}}
+        <img src="{{.Site.BaseURL}}{{ .Params.Cover }}" style="max-height: 315px; object-fit: cover"
+            class="img-fluid w-100 rounded-5 shadow-sm" /> {{else}}
         <div class="w-100 rounded-5 shadow-sm" style="max-height: 315px"></div>
         {{end}}
         <div class="position-absolute" style="bottom: 10%; left: 0%; width: 15%; height: 15%">
             <!-- Start If -->
             {{if .Params.Logo}}
-            <img src="{{.Site.BaseURL}}{{.Params.Logo}}" class="img-fluid rounded-circle shadow-sm border border-5" style="border-color: var(--rojo-blanco) !important" />
+            <img src="{{.Site.BaseURL}}{{.Params.Logo}}" class="img-fluid rounded-circle shadow-sm border border-5"
+                style="border-color: var(--rojo-blanco) !important" />
             <!-- Else -->
             {{else}}
             <span class="text-mute text-light"> {{.Name}} </span>
@@ -20,6 +22,7 @@
     <small>{{.Params.createdAt}}</small>
     <h1 id="title" class="fw-bold">{{ .Title }}</h1>
     <h2 id="title">{{ .Params.subtitle }}</h2>
+    {{if .Params.Tags}}
     <div class="d-flex flex-row align-items-center justify-content-start w-100 h-auto">
         {{ range .Params.Tags }}
         <h5 class="me-2">
@@ -27,6 +30,7 @@
         </h5>
         {{end}}
     </div>
+    {{end}}
     <div>
         <article id="content">{{ .Content }}</article>
     </div>

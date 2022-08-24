@@ -1,6 +1,8 @@
 ---
 title: "Title"
-tags: "Tags"
+tags: ["Tags"]
+description: ""
+# members: [{name: '', tags: [], description: ''}]
 logo: "Logo"
 cover: "Cover"
 
@@ -9,8 +11,8 @@ layout: page
 draft: false
 ---
 
-** Insertar Resumen **
+**Insertar Resumen**
 
 <!-- More -->
 
-** Insertar Contenido **
+**Insertar Contenido**
